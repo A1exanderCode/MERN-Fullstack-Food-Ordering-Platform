@@ -1,0 +1,127 @@
+# ==========================================
+# MERN Stack - .gitignore
+# ==========================================
+
+
+# ------------------------------------------
+# 1. Dependencies
+# ------------------------------------------
+
+node_modules/
+
+
+# ------------------------------------------
+# 2. Environment Variables & Secrets
+# ------------------------------------------
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Private keys and certificates
+*.pem
+*.key
+
+
+# ------------------------------------------
+# 3. Build & Production Output
+# ------------------------------------------
+
+dist/
+build/
+out/
+
+
+# ------------------------------------------
+# 4. Logs & Debugging
+# ------------------------------------------
+
+logs/
+*.log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ------------------------------------------
+# 5. Testing & Coverage
+# ------------------------------------------
+
+coverage/
+.nyc_output/
+
+
+# ------------------------------------------
+# 6. Cache & Temporary Files
+# ------------------------------------------
+
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+tmp/
+temp/
+
+
+# ------------------------------------------
+# 7. IDE & Editor Files
+# ------------------------------------------
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains (WebStorm, IntelliJ IDEA)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Other editor history
+.history/
+
+
+# ------------------------------------------
+# 8. Operating System Files
+# ------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# Linux
+.directory
+
+
+# ------------------------------------------
+# 9. Local Database Files
+# ------------------------------------------
+
+*.sqlite
+*.sqlite3
+
+
+# ------------------------------------------
+# 10. Miscellaneous
+# ------------------------------------------
+
+*.bak
+*.tmp
