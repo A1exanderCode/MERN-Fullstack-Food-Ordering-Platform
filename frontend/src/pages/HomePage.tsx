@@ -17,14 +17,14 @@ const HomePage = () => {
         <div className="flex flex-col gap-12">
             <div className="bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
                 <h1 className="text-5xl font-bold tracking-tight text-orange-600">
-                    Find It. Order It. Enjoy It.
+                    Find it. Order it. Enjoy it.
                 </h1>
                 <span className="text-xl">
-                    Your Next Great Meal Starts Here. Just a click away!
+                    Your next great meal starts here. Just a click away!
                 </span>
             </div>
             <span className="text-xl text-center text-orange-500">
-                More Choices. More Flavors. More to Love.
+                More choices. More flavors. More to love.
             </span>
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
                 <img src={burgerImage} className="w-full h-full object-cover rounded-lg" />
